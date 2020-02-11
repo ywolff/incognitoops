@@ -1,0 +1,15 @@
+body {
+    width: 400px;
+    height: 60px;
+    text-align: center;
+}
+
+input {
+    width: 30px;
+    font-size: 15px;
+    text-align: right;
+}
+
+label {
+    font-size: 15px;
+}
