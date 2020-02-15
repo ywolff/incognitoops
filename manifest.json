@@ -1,6 +1,6 @@
 {
   "name": "Incognitoops",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "This extension automatically closes tabs opened in private browsing mode after a customizable delay.",
   "background": {
