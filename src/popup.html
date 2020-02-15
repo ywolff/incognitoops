@@ -4,9 +4,17 @@
     <link rel="stylesheet" type="text/css" href="popup.css">
     </head>
     <body>
+        <p><em><strong>Incognitoops</strong></em> closes inactive tabs in private browsing mode.</p>
         <p>Please choose the delay before closing inactive tabs:</p>
         <label><input type="number" id="hoursInput"> hours</label>
         <label><input type="number" id="minutesInput"> minutes</label>
+        <hr />
+        <p>To make it work, you need to enable the extension in private browsing mode:</p>
+        <ol>
+            <li>Go to the extensions management page at <em>chrome://extensions/</em> URL</li>
+            <li>Click on <em>"DETAILS"</em> button under <em>Incognitoops</em></li>
+            <li>Check the <em>"Allow in incognito"</em> option</li>
+        </ol>
         <script src="popup.js"></script>
     </body>
   </html>
